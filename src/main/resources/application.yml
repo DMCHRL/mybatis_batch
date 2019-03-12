@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/batch
+    username: root
+    password: 123456
+
+mybatis:
+  mapperLocations: classpath:mapper/*.xml
+logging:
+  level:
+     com.dmchrl.dao.UserDao : debug
